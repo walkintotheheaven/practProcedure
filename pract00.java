@@ -40,31 +40,8 @@ public class pract00 {
       }
 
       public static void main(String[] args) {
-
-            int ver = 1;
-            do{
-
-            System.out.println("Welkam");
-            System.out.println("1. Tampilkan  Mahasiswa");
-            System.out.println(`);
-            int pilihan;
-            pilihan = input.nextInt();
-
-            switch(pilihan){
-                  case 1:
                   tampilkanMahasiswa();
-                  break;
-
-                  case 2:
-                  System.out.println();
                   cetakTabel();
-            }
 
-            ver = input.nextInt();
-      } while (ver == 1);
-
-
-            // System.out.println();
-            // cetakTabel();
       }
 }
